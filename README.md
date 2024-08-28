@@ -54,10 +54,13 @@ surprisepath = './data/negative/surprise_video'
 
 ## Parameter settings
 
-excel_file_path = "/CASME2-coding-20140508.xlsx"
+```python
+excel_file_path = "/excel_file.xlsx"
 df = pd.read_excel(excel_file_path, sheet_name='Sheet1')
 df["Action Units"] = df["Action Units"].astype(str) #Convert Action Units data to string.
 AU_CODE = [1, 2, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 43] #Select the Action Units you want.
+
+```
 
 ## Run training
 ```python
@@ -73,11 +76,12 @@ python Dual-Branch 3DCNN+AU.py
 
 - MEGC2019 [SMIC Part] [SAMM Part] [CASME II Part]
 
-<img src="https://i.imgur.com/WelO9t7.png" width="1312" height="250">
+<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/Performance%20Evaluation.PNG"
+  width="1312" height="250">
 
-BOTH LOSO AND MEGC2019 ARE EMPLOYED FOR PERFORMANCE COMPARISON BETWEEN OUR PROPOSED METHOD AND OTHER STATE-OF-THE-ART (SOTA) METHODS. 
-THE BEST AND SECOND-BEST SCORES ARE HIGHLIGHTED AND UNDERLINED, RESPECTIVELY.
-
+We compared our architecture with several other state of-the-art methods on the micro-expression datasets SMIC,SAMM and CASME II.
+Both LOSO and MEGC2019 are used for performance comparison between our proposed method and SOTA methods.
+(The best and second best scores are highlighted and underlined respectively.)
 All training and testing base on same 4090.
 
 ## Qualitative comparisons
