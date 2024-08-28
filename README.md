@@ -19,21 +19,22 @@ attention mechanisms.
 
 <table>
   <tr>
-    <td colspan="2"><img src = "https://i.imgur.com/1UX5j3x.png" alt="CMFNet" width="800"> </td>  
-  </tr>
-  <tr>
-    <td colspan="2"><p align="center"><b>Overall Framework of SUNet</b></p></td>
+    <td colspan="2"><img src = "https://github.com/dannyFan-0201/Micro-Expression-Recognition-Using-A-Dual-Branch-3DCNN-Network/blob/main/img/model%20architecture.PNG" alt="CMFNet" width="1000"> </td>  
+    
   </tr>
   
-  <tr>
-    <td> <img src = "https://imgur.com/lV1CR4H.png" width="400"> </td>
-    <td> <img src = "https://imgur.com/dOjxV93.png" width="400"> </td>
-  </tr>
-  <tr>
-    <td><p align="center"><b>Swin Transformer Layer</b></p></td>
-    <td><p align="center"> <b>Dual up-sample</b></p></td>
-  </tr>
 </table>
+
+# Environment
+- Python 3.9.0
+- Tensorflow 2.10.1
+- keras	2.10.0
+- opencv-python	
+- tensorboard	
+- colorama
+- imageio-ffmpeg
+
+or see the requirements.txt
 
 ## Quick Run  
 You can directly run personal noised images on my space of [**HuggingFce**](https://huggingface.co/spaces/52Hz/SUNet_AWGN_denoising).  
