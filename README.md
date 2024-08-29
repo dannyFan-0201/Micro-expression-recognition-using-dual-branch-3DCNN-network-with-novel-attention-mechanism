@@ -97,15 +97,15 @@ All training and testing base on same 4090.
 
 - SMIC DATASET ABLATION EXPERIMENT ON SINGLE-BRANCH 3DCNN INFRASTRUCTURE.
   <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/ab1.PNG"
-  width="600" height="150">
+  width="500" height="100">
 
 - SMIC DATASET ABLATION EXPERIMENT OF DUAL-BRANCH 3DCNN ARCHITECTURE.
   <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/ab2.PNG"
-  width="600" height="150">
+  width="600" height="100">
   
 - FOR THE ABLATION EXPERIMENT OF ADDING AU TO THE MODEL.
   <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/ab3.PNG"
-  width="600" height="150">
+  width="550" height="100">
 
 
 ---
