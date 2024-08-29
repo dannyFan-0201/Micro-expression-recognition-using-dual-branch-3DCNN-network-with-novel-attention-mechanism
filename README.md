@@ -80,8 +80,8 @@ python Dual-Branch 3DCNN+AU.py
   width="1312" height="250">
 
 We compared our architecture with several other state of-the-art methods on the micro-expression datasets SMIC,SAMM and CASME II.
-Both LOSO and MEGC2019 are used for performance comparison between our proposed method and SOTA methods.
-(The best and second best scores are highlighted and underlined respectively.)
+<br>Both LOSO and MEGC2019 are used for performance comparison between our proposed method and SOTA methods.<br>
+<br>(The best and second best scores are highlighted and underlined respectively.)<br>
 All training and testing base on same 4090.
 
 - Evaluation experimental results based on the CAS(ME)3 dataset.
