@@ -42,7 +42,7 @@ or see the requirements.txt
 
 ## Set dataset path
 
-Edit in Dual-Branch 3DCNN+AU (set path in config)
+Edit in Dual-Branch 3DCNN+AU.py (set path in config)
 
 ```python
 output_folder ='./data/negative/training_frames' # This will be automatically generated.
