@@ -86,66 +86,32 @@ All training and testing base on same 4090.
 
 - Evaluation experimental results based on the CAS(ME)3 dataset.
 <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
-  width="1312" height="250">
+  width="600" height="150">
 
 - Evaluation experimental results based on the lie detection dataset.
-<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
-  width="1312" height="250">
-  
-## Qualitative comparisons
+<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/lie_detection.PNG"
+  width="600" height="150">
 
-- Places2
-
-<img src="https://i.imgur.com/FMGm4mB.jpg" width="1000" style="zoom:100%;">
-
-Qualitative results of Places2 dataset among all compared models. From left to right: Masked image, DeepFill_v2, HiFill, Iconv, AOT-GAN, HiFill, CRFill, TFill, and Ours. Zoom-in for details.
-
-- CelebA
-
-<img src="https://i.imgur.com/hPPQQ3W.jpg" width="1000" style="zoom:100%;">
-
-Qualitative results of CelebA dataset among all compared models. From left to right: Masked image, RW, DeepFill_v2, Iconv, AOT-GAN, CRFill, TFill, and Ours. Zoom-in for details.
 
 ## Ablation study
 
-- Transformer and HSV loss
+- SMIC DATASET ABLATION EXPERIMENT ON SINGLE-BRANCH 3DCNN INFRASTRUCTURE.
+  <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
+  width="600" height="150">
 
-<div align=center>
-<img src="https://i.imgur.com/DoYLVKD.png" width="410" height="150"><img src="https://imgur.com/Utxgfzs.jpg" width="410" height="150">
-</div>
+- SMIC DATASET ABLATION EXPERIMENT OF DUAL-BRANCH 3DCNN ARCHITECTURE.
+  <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
+  width="600" height="150">
+  
+- FOR THE ABLATION EXPERIMENT OF ADDING AU TO THE MODEL.
+  <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
+  width="600" height="150">
 
-(left) : Ablation study label of transformer and HSV experiment.
-
-(right) : Ablation study of color deviation on inpainted images. From left to right: Masked images, w/o TotalHSV loss, and TotalHSV loss (w/o V).
-
-## Object removal
-
-<div align=center>
-<img src="https://i.imgur.com/IYIMow7.jpg" width="1300" height="350">
-</div>
-
-Object removal (size 256×256) results. From left to right: Original image, mask, object removal result.
-
-
-## Acknowledgement
-This repository utilizes the codes of following impressive repositories   
-- [ZITS](https://github.com/DQiaole/ZITS_inpainting)
-- [LaMa](https://github.com/saic-mdal/lama)
-- [CSWin Transformer](https://github.com/microsoft/CSWin-Transformer)
-- [Vision Transformer](https://github.com/google-research/vision_transformer)
 
 ---
 ## Contact
-If you have any question, feel free to contact wiwi61666166@gmail.com
+If you have any question, feel free to contact danny80351@gmail.com
 
 ## Citation
 ```
 
-@inproceedings{chen2023lightweight,
- title={Lightweight Image Inpainting By Stripe Window Transformer With Joint Attention To CNN},
- author={Chen, Bo-Wei and Liu, Tsung-Jung and Liu, Kuan-Hsien},
- booktitle={2023 IEEE 33rd International Workshop on Machine Learning for Signal Processing (MLSP)},
- pages={1--6},
- year={2023},
- organization={IEEE}
- }
