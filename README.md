@@ -84,10 +84,14 @@ Both LOSO and MEGC2019 are used for performance comparison between our proposed 
 (The best and second best scores are highlighted and underlined respectively.)
 All training and testing base on same 4090.
 
--Evaluation experimental results based on the CAS(ME)3 dataset.
-<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/Performance%20Evaluation.PNG"
+- Evaluation experimental results based on the CAS(ME)3 dataset.
+<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
   width="1312" height="250">
 
+- Evaluation experimental results based on the lie detection dataset.
+<img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/CAS(ME)3performance.PNG"
+  width="1312" height="250">
+  
 ## Qualitative comparisons
 
 - Places2
