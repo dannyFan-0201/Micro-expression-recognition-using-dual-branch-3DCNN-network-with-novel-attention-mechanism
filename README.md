@@ -71,6 +71,12 @@ python Dual-Branch 3DCNN+AU.py
 1. Set the dataset path.
 2. Select the Action Units you want.
 3. Set path and parameter details in model.
+
+## Run testing
+
+After training is completed, the output test results will be automatically calculated.
+<br>The UF1/UAR/ACC of each Subject will be listed in detail, as well as the final average score.<br>
+
    
 ## Performance Evaluation
 
