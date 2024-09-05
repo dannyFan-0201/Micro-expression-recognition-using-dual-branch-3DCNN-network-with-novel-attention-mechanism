@@ -1,6 +1,6 @@
 # [Micro-expression recognition using dual-branch 3DCNN network with novel attention mechanism]
 
-## Chun-Ting Fang, Tsung-Jung Liu, Kuan-Hsien Liu  
+## Chun-Ting Fang, Tsung-Jung Liu
 
 ***
 > Abstract : Abstract—Micro-expressions refer to small and imperceptible changes in facial expressions displayed by humans in a very
@@ -78,6 +78,7 @@ After training is completed, the output test results will be automatically calcu
 <br>The UF1/UAR/ACC of each Subject will be listed in detail, as well as the final average score.<br>
 
    
+<!--
 ## Performance Evaluation
 
 - MEGC2019 [SMIC Part] [SAMM Part] [CASME II Part]
@@ -99,7 +100,7 @@ All training and testing base on same 4090.
   width="600" height="150">
 
 
-## Ablation study
+ ## Ablation study
 
 - SMIC DATASET ABLATION EXPERIMENT ON SINGLE-BRANCH 3DCNN INFRASTRUCTURE.
   <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/ab1.PNG"
@@ -112,6 +113,8 @@ All training and testing base on same 4090.
 - FOR THE ABLATION EXPERIMENT OF ADDING AU TO THE MODEL.
   <img src="https://github.com/dannyFan-0201/Micro-expression-recognition-using-dual-branch-3DCNN-network-with-novel-attention-mechanism/blob/main/img/ab3.PNG"
   width="550" height="100">
+  
+  -->
 
 
 ---
